@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="text middle" data-text="WEATHER FORECAST // NATHAN TEAKLE">
+    WEATHER FORECAST // NATHAN TEAKLE
+  </div>
+
+  <div class="login-box">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/n34d93138d60/adelaide/" data-label_1="ADELAIDE"
+      data-label_2="WEATHER FORECAST" data-font="Consolas" data-icons="Climacons Animated" data-theme="hexellence"
+      data-textcolor="#E60050" data-lowcolor="#18A1AD" data-cloudcolor="#ff00c1" data-raincolor="#00ECFF">ADELAIDE
+      WEATHER FORECAST</a>
+    <script>
+      ! function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = 'https://weatherwidget.io/js/widget.min.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, 'script', 'weatherwidget-io-js');
+    </script>
+  </div>
+
+  <section>
+    <div class="wave"></div>
+  </section>
+
+</body>
+
+</html>
